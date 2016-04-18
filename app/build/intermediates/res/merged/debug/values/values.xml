@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_text">Image Playground 1.0\nCopyright 2012 Google Inc. All Rights Reserved.\nhttp://code.google.com/p/image-playground\n\nSee the Google Code site above for documentation.\n\nThis software uses ANTLR 3, under the terms of the following license:\nANTLR 3 License\n\n[The BSD License]\nCopyright (c) 2010 Terence Parr\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n  - Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n  - Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n  - Neither the name of the author nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</string>
+    <string name="app_name">Image Playground</string>
+    <string name="cancelSaveScriptButtonLabel">Cancel</string>
+    <string name="deleteImageButtonLabel">Delete Picture</string>
+    <string name="exitViewImageButtonLabel">Return</string>
+    <string name="hello">Hello World, ImageLabActivity!</string>
+    <string name="loadScriptMenuItem">Load</string>
+    <string name="newScriptMenuItem">New Script</string>
+    <string name="noImagesFound">You have not saved any pictures yet.</string>
+    <string name="saveScriptButtonLabel">Save</string>
+    <string name="saveScriptMenuItem">Save</string>
+    <string name="saveScriptMessage">Enter the script name</string>
+    <string name="shareImageButtonLabel">Share Picture</string>
+    <string name="untitledScript">Untitled Script</string>
+</resources>

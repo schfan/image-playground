@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/mainLeftLayout"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:id="@+id/scriptNameTextField"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/scriptText"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:gravity="top"
+            android:layout_weight="1" />
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/cameraCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="onClick_cameraCheckboxChanged"
+                android:text="On" />
+            
+            <ImageButton
+                android:id="@+id/switchCameraButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="#00000000"
+                android:onClick="onClick_switchCamera"
+                android:src="@drawable/ic_switch_photo_facing_holo_light" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="0dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:src="@drawable/fullscreen"
+                android:onClick="onClick_goFullScreen" />
+            
+            <View
+                android:layout_width="10dp"
+                android:layout_height="0dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:onClick="onClick_gotoGallery"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="0dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:onClick="onClick_gotoAbout"
+                android:src="@android:drawable/ic_menu_help" />
+            
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/mainRightLayout"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <com.google.imageplayground.ResultView
+            android:id="@+id/resultView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"  />
+
+        <SurfaceView
+            android:id="@+id/cameraView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        
+    </LinearLayout>
+</LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fullScreenControls"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:visibility="gone" >
+    
+        <com.google.imageplayground.ResultView
+            android:id="@+id/fullScreenResultView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="#80808080"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:visibility="visible" >
+
+            <com.google.imageplayground.util.ShutterButton
+                android:id="@+id/shutterButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:clickable="true"
+                android:src="@drawable/btn_camera_shutter_holo" />
+            
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:onClick="onClick_gotoGallery"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:onClick="onClick_exitFullScreen"
+                android:src="@android:drawable/ic_menu_revert" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <ImageButton
+                android:id="@+id/fullScreenSwitchCameraButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:onClick="onClick_switchCamera"
+                android:src="@drawable/ic_switch_photo_facing_holo_light" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:visibility="visible" >
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#00000000"
+                    android:onClick="onClick_gotoAbout"
+                    android:src="@android:drawable/ic_menu_help" />
+            </LinearLayout>
+            
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

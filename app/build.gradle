@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 14
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.google.imageplayground"
+        minSdkVersion 8
+        targetSdkVersion 14
+
+        testApplicationId "com.google.imageplayground.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'org.antlr:antlr4:4.5.3'
+    compile 'com.crittercism.dexmaker:dexmaker:1.4'
+    compile 'com.crittercism.dexmaker:dexmaker-dx:1.4'
+}

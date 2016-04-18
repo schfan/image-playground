@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/res/merged/debug/layout/library_cell.xml",
+        "source": "/home/spica/AndroidStudioProjects/image-playground/app/src/main/res/layout/library_cell.xml"
+    },
+    {
+        "merged": "/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/res/merged/debug/layout/script_list_row.xml",
+        "source": "/home/spica/AndroidStudioProjects/image-playground/app/src/main/res/layout/script_list_row.xml"
+    },
+    {
+        "merged": "/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/spica/AndroidStudioProjects/image-playground/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/res/merged/debug/layout/about.xml",
+        "source": "/home/spica/AndroidStudioProjects/image-playground/app/src/main/res/layout/about.xml"
+    },
+    {
+        "merged": "/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/res/merged/debug/layout/imageview.xml",
+        "source": "/home/spica/AndroidStudioProjects/image-playground/app/src/main/res/layout/imageview.xml"
+    },
+    {
+        "merged": "/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/res/merged/debug/layout/script_list.xml",
+        "source": "/home/spica/AndroidStudioProjects/image-playground/app/src/main/res/layout/script_list.xml"
+    },
+    {
+        "merged": "/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/res/merged/debug/layout/library_list.xml",
+        "source": "/home/spica/AndroidStudioProjects/image-playground/app/src/main/res/layout/library_list.xml"
+    }
+]

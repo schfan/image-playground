@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/spica/.gradle/caches/modules-2/files-2.1/com.crittercism.dexmaker/dexmaker/1.4/6d1ffc507a9b46bbc718d030a1c39b31c572d2b6/dexmaker-1.4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6d1ffc507a9b46bbc718d030a1c39b31c572d2b6">
+        <dex dex="/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/transforms/dex/debug/folders/1000/10/dexmaker-1.4_cf48c14fdfd84a06bc6523bca4a5670fa223429a/classes.dex" />
+    </item>
+    <item
+        jar="/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a4dd5af662fe4b4e690e9fc387f86f87f019798c">
+        <dex dex="/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2a2b0f2c35b4d89047931a2c35c3f9dc29e7d157/classes.dex" />
+    </item>
+    <item
+        jar="/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a362d07a1bb526fd90153bde15e66074e0d1c788">
+        <dex dex="/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1f6d5373bc56997538a01c0beb675c4131ca9979/classes.dex" />
+    </item>
+    <item
+        jar="/home/spica/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.3/f35db7e4b2446e4174ba6a73db7bd6b3e6bb5da1/antlr4-4.5.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f35db7e4b2446e4174ba6a73db7bd6b3e6bb5da1">
+        <dex dex="/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/transforms/dex/debug/folders/1000/10/antlr4-4.5.3_36946ee201269edaf17657f119999d3f2325c411/classes.dex" />
+    </item>
+    <item
+        jar="/home/spica/.gradle/caches/modules-2/files-2.1/com.crittercism.dexmaker/dexmaker-dx/1.4/b1146f23dc9f562f4da9a612e2f1980199c1221/dexmaker-dx-1.4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0b1146f23dc9f562f4da9a612e2f1980199c1221">
+        <dex dex="/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/transforms/dex/debug/folders/1000/10/dexmaker-dx-1.4_229451a5f957f08184d607bd87ce7aa356a86386/classes.dex" />
+    </item>
+
+</items>

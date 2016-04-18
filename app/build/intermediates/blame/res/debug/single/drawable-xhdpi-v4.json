@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_camera_shutter_holo.png",
+        "source": "/home/spica/AndroidStudioProjects/image-playground/app/src/main/res/drawable-xhdpi/btn_camera_shutter_holo.png"
+    },
+    {
+        "merged": "/home/spica/AndroidStudioProjects/image-playground/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_camera_shutter_pressed_holo.png",
+        "source": "/home/spica/AndroidStudioProjects/image-playground/app/src/main/res/drawable-xhdpi/btn_camera_shutter_pressed_holo.png"
+    }
+]

@@ -1,0 +1,83 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:2:1-30:12
+	xmlns:android
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml
+		INJECTED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml
+		INJECTED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml
+		INJECTED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:6:5-35
+uses-sdk
+ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:8:5-73
+	android:targetSdkVersion
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:8:41-70
+		INJECTED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml
+		INJECTED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:8:15-40
+		INJECTED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml
+		INJECTED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:9:22-62
+	required
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:9:63-79
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:10:22-78
+application
+ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:12:5-28:23
+	android:label
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:13:9-45
+activity#com.google.imageplayground.ImagePlaygroundActivity
+ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:screenOrientation
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:17:46-83
+	android:label
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:17:13-45
+	android:configChanges
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:17:84-131
+	android:name
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:16:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.google.imageplayground.AboutActivity
+ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:24:9-60
+	android:name
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:24:19-48
+activity#com.google.imageplayground.ViewImageActivity
+ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:25:9-102
+	android:screenOrientation
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:25:53-90
+	android:name
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:25:19-52
+activity#com.google.imageplayground.LibraryActivity
+ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:26:9-62
+	android:name
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:26:19-50
+activity#com.google.imageplayground.ScriptListActivity
+ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:27:9-65
+	android:name
+		ADDED from /home/spica/AndroidStudioProjects/image-playground/app/src/main/AndroidManifest.xml:27:19-53
